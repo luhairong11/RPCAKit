@@ -18,6 +18,6 @@ N = randn(size(A)) * corruption;
 
 X = A + N;
 
-A_est = rpca_fro(X, 0.01);
+A_est = rpca_fro(X, 10);
 
 rmpath(paths);
